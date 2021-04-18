@@ -1,0 +1,28 @@
+local username1 = 'RobloxCookies_Alt1'
+
+local username2 = ''
+
+local username3 = ''
+
+local username4 = ''
+
+local username5 = ''
+
+local random = math.random(1,5)
+
+local mainAccount = 'username'..random
+
+local pw = nil
+
+function clipboard(text)
+    if syn then
+        syn.write_clipboard(text)
+    else
+        setclipboard(text)
+    end
+end
+
+if mainAccount == Account1 then
+    pw = 'RCA_1ROBLOX''
+    clipboard('username: '..Account1, pw: '..pw)
+end
